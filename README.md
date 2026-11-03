@@ -31,31 +31,35 @@ TrippyPOS continues to be refined around the needs of the business and the equip
 
 ## Videos
 
-These were recorded on a test copy of TrippyPOS using sample products, customers, keys, and devices. Payment account details and links have been hidden.
+**These were recorded on a test copy of TrippyPOS using sample products, customers, keys, and devices. Payment account details and links have been hidden.**
 
-Making a sale. A rewards member is looked up, both screens follow the sale as items are added, a $10 reward is applied, and sales are paid with Cash App and with cash.
+**Making a sale:** A rewards member is looked up, both screens follow the sale as items are added, a $10 reward is applied, and sales are paid with Cash App and with cash.
 
-Setting up a card reader. A countertop reader is paired, checked, and used for a card sale. The register sends the exact amount to the reader and completes the sale once the charge is confirmed.
+**Setting up a card reader:** A countertop reader is paired, checked, and used for a card sale. The register sends the exact amount to the reader and completes the sale once the charge is confirmed.
 
-Setting up card payments and Cash App. The phone payment app and Cash App are set up in Settings, and a card sale is sent to the staff phone.
+**Setting up card payments and Cash App:** The phone payment app and Cash App are set up in Settings, and a card sale is sent to the staff phone.
 
-Setting up the printer, drawer, and scanner. The register finds its connected equipment, prints a test receipt, opens the cash drawer, and adds items with the barcode scanner.
+**Setting up the printer, drawer, and scanner:** The register finds its connected equipment, prints a test receipt, opens the cash drawer, and adds items with the barcode scanner.
 
-Updates. The register checks the store’s private repository for updates and installs them when it is idle.
+**Updates:** The register checks the store’s private repository for updates and installs them when it is idle.
 
 ## How It Works
 
-A few of the decisions behind the system:
+**A few of the decisions behind the system:**
 
-A card sale is only completed after the charge has been confirmed with the payment processor. The card is read on the phone or the reader, so card numbers never reach the register.
-Finishing a sale is safe to repeat. If the same payment result arrives twice, stock and loyalty points are not taken twice.
-The register keeps selling without internet. Changes are queued and sent to the online store once the connection returns.
-Payment processors connect separately from checkout, so another processor or reader can be added without changing how a sale works.
-Updates are checked every 15 minutes, then downloaded, checked, and built on the register. They install only when no sale is in progress, and the previous version is kept so it can be rolled back.
+**A card sale is only completed after the charge has been confirmed with the payment processor:** The card is read on the phone or the reader, so card numbers never reach the register.
 
-Backend. How the server finishes a sale, issues rewards, stores staff PINs, and upgrades the database without touching existing sales.
+**Finishing a sale is safe to repeat:** If the same payment result arrives twice, stock and loyalty points are not taken twice.
 
-Screens and sync. How the customer display stays in step with the register, how change due is shown, and how sales reach the online store after a dropped connection.
+**The register keeps selling without internet:** Changes are queued and sent to the online store once the connection returns.
+
+**Payment processors connect separately from checkout, so another processor or reader can be added without changing how a sale works.**
+
+**Updates are checked every 15 minutes, then downloaded, checked, and built on the register:** They install only when no sale is in progress, and the previous version is kept so it can be rolled back.
+
+**Backend:** How the server finishes a sale, issues rewards, stores staff PINs, and upgrades the database without touching existing sales.
+
+**Screens and sync:** How the customer display stays in step with the register, how change due is shown, and how sales reach the online store after a dropped connection.
 
 
 
