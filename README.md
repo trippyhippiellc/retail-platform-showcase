@@ -29,7 +29,7 @@ Testing and troubleshooting pairing, responsiveness, and performance.
 
 TrippyPOS continues to be refined around the needs of the business and the equipment used in the store.
 
-Videos
+## Videos
 
 These were recorded on a test copy of TrippyPOS using sample products, customers, keys, and devices. Payment account details and links have been hidden.
 
@@ -43,7 +43,7 @@ Setting up the printer, drawer, and scanner. The register finds its connected eq
 
 Updates. The register checks the store’s private repository for updates and installs them when it is idle.
 
-How It Works
+## How It Works
 
 A few of the decisions behind the system:
 
